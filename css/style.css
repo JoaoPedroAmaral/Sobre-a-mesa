@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=My+Soul&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-image: url("../image/fundo.jpg");
+    background-position-x: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    align-items: center;
+}
+
+#titulo{
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul#janela{
+    margin-left: 20%;
+    margin-right: 18.6%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+ul#janela iframe{
+    border-style: solid;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-width: 3px;
+}

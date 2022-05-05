@@ -1,27 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=My+Soul&display=swap');
+
 *{
-	margin: 0;
+    margin: 0;
 	padding: 0;
 }
 
- body{
-     background-color: beige;
- }
-
- nav li{
-    display: inline;
-    line-height: 60px;
+body{
+     background-color: #fff;
 }
 
-#menu a:link, #menu a:visited{
-    margin: 40px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.3em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: black;
+#menu{
+    padding-left: 2em;
 }
 
- nav ul#menu{
-    text-align:center;
-    background-color: #ffb152;
+#menu a{
+    font-family: 'Indie Flower', sans-serif;
+    color: #000;
+    font-size: 24px;
+
+}
+
+#intro{
+    background-color: #fccfa7;
+    border: solid #000 ;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 97.5%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#intro h1{
+    font-size:2em;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 30px ;
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: 600;
+}
+#intro p{
+    text-align:justify;
+    font-size: 1.4em;
+    margin-left: 20px;
+}
+
+#intro img{
+    height: 10em;
+    margin-left: 50px;
+}
+
+#desc h1{
+    font-size:2em;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: 600;
+}
+#desc p, #desc li{
+    margin-left: 20px;
+    list-style-image: url("../image/favicon-16x16.png");
 }

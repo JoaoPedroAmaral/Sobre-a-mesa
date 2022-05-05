@@ -8,9 +8,6 @@
 body{
     background-image: url("../image/fundo.jpg");
     background-position-x: center;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
     align-items: center;
 }
 
@@ -20,14 +17,11 @@ body{
 }
 
 ul#janela{
-    margin-left: 20%;
-    margin-right: 18.6%;
     margin-bottom: 30px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
 }
+
 ul#janela iframe{
+    background-color: #fff;
     border-style: solid;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;

@@ -16,6 +16,7 @@ body{
 #menu a{
     font-family: 'Indie Flower', sans-serif;
     color: #000;
+    text-shadow: 2px 2px 2px #fccfa7;
     font-size: 24px;
 
 }
@@ -50,11 +51,66 @@ body{
     margin-left: 50px;
 }
 
+#Faixa h1{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 2px;
+    background-color: #ffb152;
+    border: solid #000;
+    border-left: none;
+    border-right: none;
+    text-shadow: 2px 2px #fccfa7;
+    font-size: 2.2em;
+    font-family: 'Indie Flower', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.estrogonofe:link,.estrogonofe:visited, .estrogonofe:active, .estrogonofe:hover{
+    text-transform: uppercase;
+	text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+}
+
+.estrogonofe img{
+    border-radius: 10px;
+    width: 400px;
+}
+
+.estrogonofe:hover fieldset{
+    text-decoration:underline;
+    color: #000;
+}
+
+.caixa{
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px 4px #000;
+    border-radius: 10px;
+    max-width: 100%;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+    margin-bottom: 60px;
+}
+
+.caixa:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#desc{
+    background-color: #ffb152; 
+}
+
 #desc h1{
     font-size:2em;
     text-align: left;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 200px;
+    padding-top: 20px;
     font-family: 'Indie Flower', sans-serif;
     font-weight: 600;
 }

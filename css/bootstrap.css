@@ -633,6 +633,7 @@ progress {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    margin-top: 50px;
   }
 }
 @media (min-width: 768px) {
@@ -2191,7 +2192,7 @@ progress {
   appearance: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  margin-left: 8em;
+  margin-left: 23em;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -3293,6 +3294,47 @@ textarea.form-control-lg {
   background-color: transparent;
 }
 
+/*botao*/
+
+.btn-outline-successo {
+  color: #000;
+  background-image: url(../image/lupa.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  padding: 0px 20px;
+  border-color: #000;
+}
+
+.btn-outline-successo:hover {
+  color: #fff;
+  background-image: url(../image/lupa-16x16.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  padding: 0px 20px;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-check:focus + .btn-outline-successo, .btn-outline-successo:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+.btn-check:checked + .btn-outline-successo, .btn-check:active + .btn-outline-successo, .btn-outline-successo:active, .btn-outline-successo.active, .btn-outline-successo.dropdown-toggle.show {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+.btn-check:checked + .btn-outline-successo:focus, .btn-check:active + .btn-outline-successo:focus, .btn-outline-successo:active:focus, .btn-outline-successo.active:focus, .btn-outline-successo.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+.btn-outline-successo:disabled, .btn-outline-successo.disabled {
+  color: #000;
+  background-color: transparent;
+}
+
+/*botao*/
+
 .btn-outline-success {
   color: #000;
   border-color: #000;
@@ -3303,18 +3345,18 @@ textarea.form-control-lg {
   border-color: #000;
 }
 .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
-  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 .btn-check:checked + .btn-outline-success, .btn-check:active + .btn-outline-success, .btn-outline-success:active, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #000;
+  border-color: #000;
 }
 .btn-check:checked + .btn-outline-success:focus, .btn-check:active + .btn-outline-success:focus, .btn-outline-success:active:focus, .btn-outline-success.active:focus, .btn-outline-success.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 .btn-outline-success:disabled, .btn-outline-success.disabled {
-  color: #198754;
+  color: #000;
   background-color: transparent;
 }
 
@@ -4008,8 +4050,9 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #000;
 }
 .navbar > .container,
 .navbar > .container-fluid,

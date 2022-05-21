@@ -30,23 +30,57 @@
             </div>
         </nav>
         <section id="rango">
-          <h1>Refeições</h1>
+          <h1>Almoço ou Janta</h1>
           <!-- COLUNAS -->
           <div class="container">
             <div class="row">
               <div class="col-4">
                 <!-- MODAL -->
-                <table class="caixa">
-                  <tr>
-                    <td>
-                      <a class="estrogonofe" href="#abrirModa1"><img src="../image/estrogonofe.jpeg"><fieldset><b>Strogonoff de frango</b></fieldset></a>
-                    </td>
-                  </tr>
-                </table>
+                <div class="caixa">
+                      <a class="estrogonofe" href="#abrirModa1">
+                        <div class="card" style="width: 21.3rem;">
+                          <img src="../image/estrogonofe.jpeg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h6><b>STROGONOFF DE FRANGO</b></h6>
+                            <p class="card-text">
+                              Aprenda uma das comidas originárias russas mais famosa criada e deixe seu prato uma maravilha.
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                </div>
                   <div id="abrirModa1" class="modalA">
-                  <a href="#fecharJ" title="fechar" class="fechar"><button class="btn btn-outline-success" type="submit">x</button></a>
+                  <a href="#fecharJ" title="fechar" class="fechar"><button class="btn btn-outline-success" id="fechar" type="submit">x</button></a>
                   <h3><b>STROGONOFF DE FRANGO</b></h3>
-                  <h4>Igredientes</h4>
+                  <div class="slide">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../image/slide1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../image/slide1.2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../image/slide1.1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <h4>Ingredientes</h4>
                   <p>
                     <li>3 peitos de frango cortados em cubos<br></li>
                     <li>1 dente de alho picado<br></li>
@@ -71,11 +105,82 @@
                   </p>
                 </div>
                 <div class="fundo"></div>
+              </div>
+                <!--MODAL FECHADO-->
+         <!-- COLUNAS -->
+              <div class="col-4">
+                <!-- MODAL -->
+                <div class="caixa">
+                      <a class="estrogonofe" href="#abrirModa2">
+                        <div class="card" style="width: 100%;">
+                          <img src="../image/macarrao_com_calabresa.jpg" class="card-img-top" id="imagem" alt="...">
+                          <div class="card-body">
+                            <h6><b>MACARRÃO COM CALABRESA</b></h6>
+                            <p class="card-text" id="texto">
+                              Uma refeição simples e facil de fazer, mas que pode deixar todo mundo com agua na boca.
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                </div>
+                  <div id="abrirModa2" class="modalA">
+                  <a href="#fecharJ" title="fechar" class="fechar"><button class="btn btn-outline-success" id="fechar" type="submit">x</button></a>
+                  <h3><b>MACARRÃO COM CALABRESA NA PANELA DE PRESSÃO</b></h3>
+                    <div id="carouselExample2" class="carousel slide" data-bs-ride="true">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExample2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../image/slide2.1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../image/slide2.2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="../image/slide2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  <h4>Ingredientes</h4>
+                  <p>
+                    <li>1 pacote de macarrão penne, parafuso, ou gravatinha</li>
+                    <li>1 caixinha de extrato/polpa/molho de tomate</li>
+                    <li>2 caixinha (a mesma medida da caixinha do molho) de água</li>
+                    <li>1 lata de creme de leite</li>
+                    <li>1 cebola média picada</li>
+                    <li>3 gomos de calabresa picados em rodelas finas</li>
+                    <li>Sal a gosto</li>
+                    <li>Óleo ou azeite para refogar a cebola e a calabresa</li>
+                  </p>
+                  <h4>Modo de Preparo </h4>
+                  <p>
+                    <li>Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta.<br></li>
+                    <li>Em uma frigideira grande, derreta a manteiga e doure a cebola.<br></li>
+                    <li>Junte o frango temperado até que esteja dourado.<br></li>
+                    <li>Adicione os cogumelos, o ketchup e a mostarda.<br></li>
+                    <li>Incorpore o creme de leite e retire do fogo antes de ferver.<br></li>
+                    <li>Sirva com arroz branco e batata palha.<br></li>
+                  </p>
+                </div>
+                <div class="fundo"></div>
+              </div>
                 <!--MODAL FECHADO-->
               </div>
             </div>
           </div>
         </section>
-    
 
+        <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+      </body>
 </html>

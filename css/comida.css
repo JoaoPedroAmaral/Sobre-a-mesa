@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 
 *{
 	margin: 0;
@@ -10,23 +11,29 @@ body{
 }
 #menu{
     padding-left: 2em;
+    border-bottom: 3px solid #000;
 }
 #menu a{
-    font-family: 'Indie Flower', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #000;
-    text-shadow: 1px 1px #fccfa7;
-    font-size: 24px;
+    text-shadow: 1px 1px #fff;
+    font-size: 22px;
 }
 
 #rango h1{
-    margin-top: 10px; margin-left: 20px; margin-bottom: 10px; margin-right: 20px;
+    margin-top: 10px;
     padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ffb152;
+    border: solid #000;
+    border-left: none;
+    border-right: none;
+    text-shadow: 1px 1px 3px #fff;
+    font-size: 2.2em;
     font-family: 'Indie Flower', sans-serif;
-    background-color: #fccfa7;
-    text-align: center;
-    border: 2px solid #000;
-    border-radius: 10px;
     font-weight: bold;
+    text-align: center;
 }
 
 /* MODAL */
@@ -38,7 +45,7 @@ body{
     left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     /*background-color: rgba(255, 177, 82, 1);*/
-    background: linear-gradient(190deg,rgba(255, 177, 82, 1),rgba(252, 214, 167, 1));
+    background: linear-gradient(190deg,rgba(252, 214, 167, 1), rgba(255, 177, 82, 1));
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -57,57 +64,49 @@ body{
 .modalA h3, .modalA h4{
     margin-top: 20px;
     margin-left: 20px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .modalA li, .modalA p{
     margin-left: 20px;
 }
 
-.modalA button{
+.modalA button#fechar{
     align-items: center;
     width: 40px;
     margin-top: 7px;
     margin-left: 7px;
+    border: 2px solid #000;
 }
 
 .modalA > div {
-    width: 400px;
+    width: 100%;
     position: relative;
-    margin: 10% auto;
     padding: 15px 20px;
-    background: #fff;
 }
 
-.fecharJ {
-    position: absolute;
-    width: 30px;
-    right: -15px;
-    top: -20px;
-    text-align: center;
-    line-height: 30px;
-    margin-top: 5px;
-    background: #ff4545;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #8d0000;
+.slide{
+    background-color: transparent;
+}
+
+.slide img{
+    height: 600px;
+    border: 10px solid #000;
 }
 
 .estrogonofe:link,.estrogonofe:visited, .estrogonofe:active, .estrogonofe:hover{
-    text-transform: uppercase;
 	text-decoration: none;
-    background-color: transparent;
+    background-color: #fccfa7;
     color: #000;
     text-align: center;
 }
 
-.estrogonofe img{
-    border-radius: 10px;
-    width: 300px;
+.estrogonofe:hover fieldset{
+    color: #000;
 }
 
-.estrogonofe:hover fieldset{
-    text-decoration:underline;
-    color: #000;
+div img#imagem{
+    height: 175px;
 }
 
 .caixa{
@@ -118,6 +117,7 @@ body{
 	-moz-transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
+    margin: 5px;
 }
 
 .caixa:hover{

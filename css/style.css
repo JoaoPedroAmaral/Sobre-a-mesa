@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 
 *{
 	margin: 0;
@@ -12,7 +13,9 @@ body{
 }
 
 #titulo{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
 }
 
@@ -23,9 +26,9 @@ ul#janela{
 ul#janela iframe{
     background-color: #fff;
     border-style: solid;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    border-width: 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 5px;
 }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=My+Soul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 
 *{
     margin: 0;
@@ -11,13 +12,14 @@ body{
 
 #menu{
     padding-left: 2em;
+    border-bottom: 3px solid #000;
 }
 
 #menu a{
-    font-family: 'Indie Flower', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #000;
-    text-shadow: 2px 2px 2px #fccfa7;
-    font-size: 24px;
+    text-shadow: 1px 1px #fff;
+    font-size: 22px;
 
 }
 
@@ -54,12 +56,13 @@ body{
 #Faixa h1{
     margin-top: 10px;
     padding-left: 20px;
-    padding-top: 2px;
+    padding-top: 8px;
+    padding-bottom:8px ;
     background-color: #ffb152;
     border: solid #000;
     border-left: none;
     border-right: none;
-    text-shadow: 2px 2px #fccfa7;
+    text-shadow: 1px 1px 3px #fff;
     font-size: 2.2em;
     font-family: 'Indie Flower', sans-serif;
     font-weight: bold;
